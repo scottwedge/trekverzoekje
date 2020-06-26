@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>dark_blue_moon_emoji_1024x1024_J2w_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TeamFoundationServer.Client" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.Client" Version="16.153.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.InteractiveClient" Version="16.153.0" />
+  </ItemGroup>
+
+</Project>
